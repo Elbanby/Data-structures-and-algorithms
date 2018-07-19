@@ -53,7 +53,6 @@ void preOrder   ( PatientsTreePtr );
 void postOrder  ( PatientsTreePtr );
 
 int main() {
-
     int dataStructure = 0;
     printf("Choose a data structure");
 
@@ -250,7 +249,6 @@ void enqueue(patientPtr *headPtr, patientPtr *tailPtr, char* name,float bloodPre
 }
 
 void dequeue(patientPtr *head, patientPtr *tail) {
-
     if (isEmpty(*head)) {
         printf("Queue is empty");
     } else {
@@ -267,7 +265,6 @@ void dequeue(patientPtr *head, patientPtr *tail) {
 }
 
 void printQueue( patientPtr currentPtr ) {
-
     if (isEmpty(currentPtr)) {
         puts( "\n Queue is empty.\n" );
     } else {
@@ -300,7 +297,6 @@ void end(patientPtr tail) {
 
 //---------------------------------------Trees------------------------------------
 void createTree() {
-
     PatientsTreePtr patientZero = NULL;
     int choice = 0;
 
